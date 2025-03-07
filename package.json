@@ -1,0 +1,28 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "Este es el proyecto de patrones",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "final_project": "file:",
+    "joi": "^17.13.3",
+    "mysql2": "^3.12.0",
+    "typeorm": "^0.3.20"
+  }
+}
